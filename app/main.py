@@ -36,16 +36,16 @@ class Inputs(BaseModel):
 @app.on_event("startup")
 def load_model():
     global model_lr
-    with open("model_class.pickle", "rb") as openfile:
+    with open("./models/model_class.pickle", "rb") as openfile:
         model_lr = pickle.load(openfile)
     global vectorizer
-    with open("vectorizer.pickle", "rb") as openfile:
+    with open("./models/vectorizer.pickle", "rb") as openfile:
         vectorizer = pickle.load(openfile)
     global model_tf
-    with open("model_tf_idf.pickle", "rb") as openfile:
+    with open("./models/model_tf_idf.pickle", "rb") as openfile:
         model_tf = pickle.load(openfile)
     global transform
-    transform = pd.read_excel("Transform_subject.xlsx")
+    transform = pd.read_excel("./models/Transform_subject.xlsx")
     transform = dict(transform.values)
 
 
