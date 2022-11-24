@@ -4,7 +4,8 @@ Examen Final de la materia PCD, en la que se realizará un pipeline sobre las ac
 El repositorio se encuentra de la siguiente forma:
 + `data` -> La base de datos con la que se trabajó.
 + `images` -> Screenshots de la API y su funcionamiento.
-+ `app` -> Carpeta donde se encuentra la API
++ `app` -> Carpeta donde se encuentra la API.
++ `EDA_MODELO` -> Archivo jupyter con el preprocesamiento y generación de modelos.
 
 La base de datos está diseñada de la siguiente forma:
 
