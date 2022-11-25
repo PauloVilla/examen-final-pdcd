@@ -11,11 +11,9 @@ API_KEY_NAME = "password"
 
 api_key_query = APIKeyQuery(name=API_KEY_NAME, auto_error=False)
 
-app = FastAPI(
-    title="Funding challenge",
-    description="Esta API recibe un parámetro tipo body con 2",
-    version="0.0.1"
-)
+app = FastAPI(title="Funding challenge",
+              description="Esta API recibe un parámetro tipo body con 2",
+              version="0.0.1")
 
 
 def get_api_key(api_key_query: str = Security(api_key_query)):
