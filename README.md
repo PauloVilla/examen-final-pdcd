@@ -6,7 +6,7 @@ El repositorio se encuentra de la siguiente forma:
 + `images` -> Screenshots de la API y su funcionamiento.
 + `app` -> Carpeta donde se encuentra la API.
 + `EDA_MODEL` -> Archivo jupyter con el preprocesamiento y generación de modelos.
-+ `Reporte.ipynb` -> Reporte del funcionamiento de la api y dockerfile.
++ `Reporte.ipynb` -> Reporte del funcionamiento de la api y dockerfile, además de mi conclusión final.
 
 La base de datos está diseñada de la siguiente forma:
 
